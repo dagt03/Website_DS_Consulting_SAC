@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+p, a, li, h1, h2, h3, h4, h5, h6{
+	font-family:"arial"
+}
+
+/* CABECERA */
+.cabecera{
+	height:120px;
+	overflow:hidden;
+	background-color:lightgray;
+	margin:auto;
+	margin-top:10px;
+}
+
+.logo{
+	width:50%;
+	overflow:hidden;
+	float:left;
+}
+
+.logo img{
+	width:350px;
+}
+
+.menu{
+	width:45%;
+	float:right;
+	margin-top:40px;
+}
+
+.menu ul li{
+	list-style:none;
+	float:left;
+}
+
+.menu ul li a{
+	color:darkblue;
+	text-decoration:none;
+	margin-right:30px;
+}
+
+/**************************************** CUERPO ************************************************/
+
+.card1{
+	margin:auto;
+	background-color:lightgray;
+}
+
+.card1 h2 {
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+}
+
+.card {
+  	margin:auto;
+	
+	background-color:lightgray;
+	height:360px;
+}
+
+.card p {
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.card h2 {
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:30px;
+}
+
+.card h5 {
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.card img{
+	padding-left:30px;
+}
+
+.card2 {
+  	margin:auto;
+	background-color:lightgray;
+	height:360px;
+}
+
+.card2 p {
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.card2 h2 {
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:30px;
+}
+
+.card2 h5 {
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.card img {
+    float: right;
+	position:relative;
+}
+
+.card2 img{
+	float: right;
+	position:relative;
+}
+
+/********************************* PIE DE PÁGINA ************************************************/
+
+.piedepagina{
+	background-color:black;
+	margin:auto;
+	margin-top:20px;
+}
+
+.piedepagina1{
+	margin:auto;
+}
+
+.piedepagina1 p{
+	text-align:center;
+	color:white;
+	padding:5px;
+}

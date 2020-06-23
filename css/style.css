@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+p, a, li, h1, h2, h3, h4, h5, h6{
+	font-family:"arial";
+}
+
+/* CABECERA */
+.cabecera{
+	height:120px;
+	overflow:hidden;
+	background-color:lightgray;
+	margin:auto;
+	margin-top:10px;
+}
+
+.logo{
+	width:50%;
+	overflow:hidden;
+	float:left;
+}
+
+.logo img{
+	width:350px;
+}
+
+.menu{
+	width:45%;
+	float:right;
+	margin-top:50px;
+}
+
+.menu ul li{
+	list-style:none;
+	float:left;
+}
+
+.menu ul li a{
+	color:darkblue;
+	text-decoration:none;
+	margin-right:30px;
+}
+
+/**************************************** CUERPO ************************************************/
+
+.slider{
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* PARALLAX */
+.parallax{
+	height:250px;
+	overflow:hidden;
+	background-image:url("../img/busybusiness.jpg");
+	background-attachment:fixed;
+	padding-top:100px;
+	margin:auto;
+}
+
+.parallax h3 {
+	text-align:center;
+	background-color:rgba(255,255,255, 0.6);
+	padding:10px;
+	font-size:36px;
+} 
+
+/* MAPA */
+.mapa{
+	max-width:1200px;
+	height:500px;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:lightgray;
+	padding:30px 30px 30px 30px;
+}
+
+.mapa h5{
+	padding-bottom:10px;
+	text-align:center;
+}
+
+/********************************* PIE DE PÁGINA ************************************************/
+
+.piedepagina{
+	background-color:black;
+	margin:auto;
+	margin-top:20px;
+}
+
+.piedepagina1{
+	margin:auto;
+}
+
+.piedepagina1 p{
+	text-align:center;
+	color:white;
+	padding:5px;
+}

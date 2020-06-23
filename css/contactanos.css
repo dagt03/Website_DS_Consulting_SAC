@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+p, a, li, h1, h2, h3, h4, h5, h6{
+	font-family:"arial"
+}
+
+/* CABECERA */
+.cabecera{
+	height:120px;
+	overflow:hidden;
+	background-color:lightgray;
+	margin:auto;
+	margin-top:10px;
+}
+
+.logo{
+	width:50%;
+	overflow:hidden;
+	float:left;
+}
+
+.logo img{
+	width:350px;
+}
+
+.menu{
+	width:45%;
+	float:right;
+	margin-top:40px;
+}
+
+.menu ul li{
+	list-style:none;
+	float:left;
+}
+
+.menu ul li a{
+	color:darkblue;
+	text-decoration:none;
+	margin-right:30px;
+}
+
+/**************************************** CUERPO ************************************************/
+
+.contact-section{
+	background: url(../img/grey.jpg) no-repeat center;
+	background-size: cover;
+	padding: 40px 0;
+	margin-top:20px;
+}
+
+.contact-section h1{
+	text-align: center;
+	color: #ddd;
+	
+}
+
+.border{
+	width: 150px;
+	height: 10px;
+	background: #34495e;
+	margin: 20px auto;
+}
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+	
+}
+
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: lightgray;
+	padding: 20px 40px;
+	outline: none;
+	color: #000000;
+	transition: 0.5s;
+}
+
+textarea.contact-form-text:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+	resize-: none;
+	height: 120px;
+}
+
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: #34495e;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	curser: pointer;
+	transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+	background: #2980b9;
+	
+}
+
+
+/********************************* PIE DE PÁGINA ************************************************/
+
+.piedepagina{
+	background-color:black;
+	margin:auto;
+	margin-top:20px;
+}
+
+.piedepagina1{
+	margin:auto;
+}
+
+.piedepagina1 p{
+	text-align:center;
+	color:white;
+	padding:5px;
+}
